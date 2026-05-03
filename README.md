@@ -1,4 +1,4 @@
-# Plan de Evaluacion a Markdown
+# 1. Plan de Evaluacion a Markdown
 
 Scrip para extraer de la web un plan evaluativo de "uam.terna.net" a Markdown
 
@@ -6,12 +6,22 @@ Scrip para extraer de la web un plan evaluativo de "uam.terna.net" a Markdown
 2. Ejecutar el script "extract_subjects.py" con el nombre del html descargado como argumento (o modificar el nombre del html a "index.html")
 3. Verificar que las actividades esten en el archivo "output.md"
 
-
 <br>
 
-### LEER ANTES DE USAR
+# 2. Generador de indice para PDF
 
-# <b style="color:darkorange">Aviso</b>
+Scrip para generar una pagina de indice en base a los marcadores del PDF
+
+1. Marcar la pagina donde ira el indice en el documento original con un encabezado (verificar que se incorpore en los marcadores del PDF)
+2. Descargar el documento y pasar su ruta como argumento al script
+3. Verificar que el resultado sea correcta
+
+</br>
+</br>
+</br>
+
+
+# <b style="color:darkorange">Aviso [LEER ANTES DE USAR]</b>
 Este proyecto se ofrece de forma libre para estudiantes que deseen ahorrar tiempo y tener sus planes de evaluación disponibles sin conexión o organizados de mejor manera. 
 
 **No me hago responsable del mal uso de este código.** Este proyecto no está autorizado ni tiene ninguna relación con la universidad.
