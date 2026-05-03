@@ -2,13 +2,10 @@
 
 Scrip para extraer de la web un plan evaluativo de "uam.terna.net" a Markdown
 
+1. Entrar a terna y descargar el html en la sección de "Notas Lapso"
+2. Ejecutar el script "extract_subjects.py" con el nombre del html descargado como argumento (o modificar el nombre del html a "index.html")
+3. Verificar que las actividades esten en el archivo "output.md"
 
-para primero deberas descargar geckodriver para firefox (este script solo funciona para firefox) [https://github.com/mozilla/geckodriver/releases/tag/v0.35.0], luego se debe crear un archivo de nombre "data.user" con los datos (usuario, contraseña) personal del estudiante.
-
-el interior del archivo debe contener el siguiente formato:
-
-    usuario
-    contraseña
 
 <br>
 
