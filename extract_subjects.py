@@ -109,6 +109,6 @@ for sub_name, corte in subjects.items():
             if value != "":
                 md_file.write(value)
                 
-        md_file.write("</br>\n")
+    md_file.write("\n")
 
 md_file.close()
